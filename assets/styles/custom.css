@@ -1,0 +1,36 @@
+.from-hero-gradient-from {
+  --tw-gradient-from: rgba(12, 74, 110, 0.95) var(--tw-gradient-from-position);
+  --tw-gradient-from-position:  ;
+  --tw-gradient-to: rgba(85, 64, 174, 0)  var(--tw-gradient-from-position);
+  --tw-gradient-to-position:  ;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+
+.to-hero-gradient-to {
+  --tw-gradient-to: rgba(3, 105, 161, 0.93) var(--tw-gradient-to-position);
+  --tw-gradient-to-position:  ;
+}
+
+.text-primary {
+  --tw-text-opacity: 1;
+  color: rgb(3 105 161 / var(--tw-text-opacity));
+}
+
+.border-primary {
+  --tw-border-opacity: 1;
+  border-color: rgb(7 89 133 / var(--tw-border-opacity));
+}
+
+.bg-primary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 105 161 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-primary:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(3 105 161 / var(--tw-bg-opacity));
+}
+
+.font-header {
+  font-family: Open Sans, sans-serif;
+}
